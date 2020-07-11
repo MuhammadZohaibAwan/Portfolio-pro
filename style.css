@@ -63,7 +63,7 @@ ul li a{
 .mainOuter{
     width: 100%;
     background-color:black ;
-    background-image: url(/images/heroimg.jpg);
+    background-image: url(images/heroimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 80px;
