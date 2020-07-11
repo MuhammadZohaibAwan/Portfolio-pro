@@ -1,0 +1,818 @@
+/*
+font-famalies you can use  
+-------------------------
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Modak', cursive;
+font-family: 'Source Sans Pro', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-color: #2C2D2D;
+}
+
+#mainLogo img{
+    margin-top:10px ; 
+    border-radius: 70px;
+    display: inline-block;
+    padding: 5px;
+}
+
+header{
+width: 100%;
+height: 70PX;
+background-color:#1B1B1C;
+
+}
+
+.navContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav{
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+   
+    
+}
+
+ul li a:hover{
+    color:#C79864 ;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.mainOuter{
+    width: 100%;
+    background-color:black ;
+    background-image: url(/images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80px;
+}
+
+.mainInner{
+    width: 80%;
+    height:100vh;
+    margin: 0 auto;
+}
+
+.heroHeading h3,button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.heroHeading h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 4em;
+    color: white;
+}
+
+.heroHeading{
+    padding-top: 200px;
+}
+
+
+
+.heroHeading hr{
+    width: 2%;
+    display: inline-block;
+ 
+}
+
+.heroSub{
+    display: flex;
+    align-items: center;
+}
+
+.HeroButton{
+    border-radius: 30px;
+    background:linear-gradient(to right, #c79864, #cc7f39);
+    color: white;
+    padding: 10px 25px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.HeroButton:hover{
+    background:linear-gradient(to left, #c79864, #cc7f39);
+}
+
+/*About Section start*/
+.aboutOuter{
+    width: 100%;
+    min-height:650px;
+    background-color: #282929;
+    
+}
+
+
+.aboutInner{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #282929;
+    min-height: 600px;
+    display: flex;
+    
+}
+
+
+.aboutInfo h3{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.aboutInfo h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+.aboutImage{
+    flex: 1;
+    padding-top: 40px ;
+    padding-right: 25px;
+   
+}
+
+.aboutInfo p{
+    font-size: 15px;
+     color: #9E9E9E;
+     font-family: 'Roboto', sans-serif;
+    
+}
+
+.aboutImage img{
+
+    border: 8px solid #1e1f1f ;
+    outline: 4px solid:#282929;
+    outline-offset: 0px;
+    
+}
+
+.aboutInfo{
+    flex: 2;
+    padding-top: 30px;
+}
+
+.progress{
+    height: 150px;
+    width: 100%;
+    background-color: #2C2D2D;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.oneRow{
+display: flex;
+justify-content: space-around;
+padding: 5px;
+align-items: center;
+}
+
+
+
+.twoRow{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+     }
+
+
+
+    .threeRow{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        align-items: center;
+        text-align: center;
+        }
+    
+    
+
+
+        .progress h4{
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 14px;
+            padding-bottom: 3px;
+
+        }
+
+        .progress i{
+        color: #CA884A;
+        font-size: 10px;
+        }
+
+        .aboutButton{
+            border-radius: 30px;
+            background:linear-gradient(to right, #c79864, #cc7f39);
+            color: white;
+            padding: 15px 25px;
+            border-style: none;
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        
+        .aboutButton:hover{
+            background:linear-gradient(to left, #c79864, #cc7f39);
+        }
+
+        /*about section Ends*/
+
+        /* Services Section Starts*/
+
+
+        .servicesOuter{
+            width: 100%;
+            min-height: 600px;
+            background-color: #2C2D2D;
+
+        }
+
+
+        .servicesInner{
+
+            width: 80%;
+            min-height: 600px;
+            margin: 0 auto;
+            background-color:#2C2D2D;
+
+        }
+
+        #servicesHeading{
+            font-size: 35px;
+        }
+     
+
+        .servicesWrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 30px;
+            padding: 10px;
+            
+        }
+
+
+
+
+
+        .graphicDesign{
+            height: 220px;
+            width: 300px;
+            background-color: #282929;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .servicesInner h1{
+            color: white;
+            padding-top: 10px;
+            padding-left: 30px;
+            font-size: 15px;
+           
+            font-family: 'Bree Serif', serif;;
+        }
+
+        
+        .graphicDesign i{
+            color: #CB8848;
+            font-size: 40px;
+            padding: 10px;
+            
+
+        }
+
+
+        .graphicDesign h1{
+            color:#fff;
+            font-size: 23px;
+            font-family: 'Bree Serif', serif;
+            padding: 10px;
+           font-weight: 200;
+
+        }
+
+        .graphicDesign p{
+            color:#747575;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+
+          /* Services Section Ends*/
+
+
+            /* timeline Section start*/
+
+
+            .timelineOuter{
+                min-height: 700px;
+                width: 100%;
+                background-color: #282929;
+            }
+
+
+             .timelineOuter .awesomeME{
+                font-family: 'Bree Serif', serif;
+                color: white;
+                margin-bottom: 30px;
+                
+
+            }
+
+
+            .timelineOuter .awesomeME, .timelineOuter .myResume{
+                padding: 0px 0px 0px 50px;
+
+                
+            }
+
+
+            .timelineOuter .myResume{
+                padding-top: 30px;
+                color: white;
+             
+            } 
+
+            .timnelineInner{
+                height: 100vh;
+                width: 80%;
+                background-color:#282929;
+                margin: 0 auto;
+            }
+
+
+
+            .cardOne{
+                height: 200px ;
+                width: 100%;
+                background-color: #2C2D2D;
+                border-left: 3px solid #926439;
+                margin-left: 10px;
+                color: white;
+                padding: 15px;
+            }
+
+            .cardOne ,h1 ,h3 ,p{
+                margin-left: 10px;
+
+            }
+
+            .cardOne p{
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #717272;
+                margin-top: -13px;
+
+            }
+
+
+            .cardOne h1 , h3{
+                font-family: 'Bree Serif', serif;
+                font-weight: 300;
+            }
+
+            .cardDate{
+                color:#926439 ;
+            }
+
+
+            .lonelCard
+            {
+                height: 50px;
+                width: 50px;
+                background-color:#C79864;
+                color: white;
+                border-radius: 50px;
+                margin-left: 5px;
+            }
+
+         
+
+
+            .lonelCard i{
+                
+                text-align: center;
+                padding: 12px;
+                font-size: 25px;
+               
+            }
+
+
+            .cardOne p{
+                border-top: 2px solid #926439;
+                padding-top: 15px;
+
+            }
+      
+
+
+            .cardAlign{
+                display: flex;
+                
+                
+            }
+
+
+            .timnelineInner hr{
+                margin-left: 50px;
+                margin-top: -20px;
+                width: 10px;
+
+            }
+
+
+
+  
+
+            /* #insideCardhr{
+                width: 80%;
+                margin-top: 1px;
+                background-color: #323333;
+                margin-left: 14px;
+            } */
+
+
+.newZ{
+    display: flex;
+}
+
+/* zobii css */
+.cardAlign{
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+#main-div{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#main-div-2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+   
+          /* Timline Section Ends*/
+
+
+
+          /*portfolio section start*/
+
+          .portfolioOuter{
+              width: 100%;
+              min-height: 500px;
+              background-color: #2C2D2D;
+          }
+
+
+          .portfolioInner{
+            width: 80%;
+            margin: 0 auto;
+            min-height: 500px;
+            background-color: #23242;
+        }
+
+
+.portNav{
+    height: 60px;
+    width: 50%;
+    background-color: #232424;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.all{
+    height: 40px;
+    width: 15%;
+    background-color: #C8935C;
+   border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioBoxes{
+    height: 800px;
+    width: 100%;
+    background-color: #23242;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+.outerHeadings{
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+
+
+
+.oneB{
+    height: 300px;
+    width: 30%;
+    background-color: tomato;
+}
+
+
+.twoB{
+    height: 300px;
+    width: 30%;
+    background-color:green;
+}
+
+
+.threeB{
+    height: 300px;
+    width: 30%;
+    background-color: red;
+}
+
+
+
+.fourB{
+    height: 300px;
+    width: 30%;
+    background-color: orangered;
+}
+
+
+.fiveB{
+    height: 300px;
+    width: 30%;
+    background-color: purple;
+}
+
+
+.sixB{
+    height: 300px;
+    width: 30%;
+    background-color: green;
+}
+
+
+          /*portfolio section ends*/
+
+
+          /*testimonial start*/
+
+.testiOuter{
+    min-height: 200px;
+    width: 100%;
+    background-color: #282929;
+}
+
+.testiInner{
+    min-height: 300px;
+    width: 100%;
+    background-color: #2C2D2D;
+    margin: 0 auto;
+}
+
+          /*testimonial ends*/
+
+
+
+
+
+
+
+          /* hour of work start */
+
+          .cardOneH{
+            height: 100px ;
+            width: 90%;
+            background-color: #282929;
+            border-left: 3px solid #926439;
+            margin-left: 10px;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            
+           
+        }
+
+        .cardOneH h1{
+        font-size: 25px;
+
+        }
+
+
+
+
+        .cardOneH ,h1 ,h3 ,p{
+            margin-left: 10px;
+
+        }
+
+        .cardOneH p{
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #717272;
+            margin-top: -13px;
+
+        }
+
+
+        .cardOneH h1 , h3{
+            font-family: 'Bree Serif', serif;
+            font-weight: 300;
+        }
+
+        .cardDateH{
+            color:#A09F9F ;
+            font-size: 15px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+
+        .lonelCardH
+        {
+            height: 50px;
+            width: 50px;
+            background-color:#C79864;
+            color: white;
+            border-radius: 50px;
+            margin-left: 5px;
+            text-align: center;
+        }
+
+     
+
+        .lonelCardH i{
+            
+            text-align: center;
+            padding: 13px;
+            font-size: 20px;
+           
+        }
+
+
+        .cardOneH p{
+            border-top: 2px solid #926439;
+            padding-top: 15px;
+
+        }
+  
+
+
+        .cardAlignH{
+            display: flex;
+            
+        }
+
+
+        #hourHr {
+            margin-left: 50px;
+            margin-top: -20px;
+            width: 10px;
+
+        }
+
+
+        .deax{
+            display: flex;
+            justify-content: space-around;
+            margin-top:80px ;
+            background-color: #2C2D2D;
+           
+           
+
+        }
+
+          /* hour of work end */
+
+
+          /*Contact Section Starts*/
+          .contactOuter{
+              min-height: 500px;
+              width: 100%;
+              background: rebeccapurple;
+          }
+
+
+          .contactOuter{
+            min-height: 500px;
+            width: 80%;
+            margin: 0 auto;
+            background: #2C2D2D;
+        }
+
+        .contactHeading{
+            font-size: 20px;
+            color: white;
+            margin-bottom: 20px;
+            margin-top: -50px;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .formDiv{
+           padding: 40px;
+           
+        }
+
+
+        .feedback-input{
+            margin: 10px;
+            font-size: 20px;
+            width: 50%;
+            background-color: #2C2D2D;
+            color: #808181;
+            border:2px solid #808181;
+           
+            padding: 15px;
+        }
+
+        .Cinput{
+            height: 200px;
+            background-color: #2C2D2D;
+            font-family: 'Source Sans Pro', sans-serif
+            
+        }
+
+
+        .formDiv{
+
+           
+            width: 700px;
+            background-color: #232424;
+        }
+
+
+          /*Contact Section Ends*/
+
+
+          .contactWrapper{
+              display: flex;
+              justify-content: space-between;
+              margin-right: 20px;
+              
+              
+          }
+
+          .ctmar{
+              margin-bottom: 40px;
+          }
+
+          .footerDiv{
+              height: 150px;
+              width: 100%;
+              background-color: #282929;
+              color: white;
+              text-align: center;              
+          }
+
+          .footheading{
+              font-size: 20px;
+              padding-top: 10px;
+          }
+
+          .gold{
+            color :#C79864;
+          }
+
+          .iconsz{
+              width: 20%;
+              text-align: center;
+              display: flex;
+              justify-content: space-around;
+              font-size: 20px;
+              padding: 20px;
+              margin: 0 auto;
+          }
